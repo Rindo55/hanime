@@ -29,7 +29,7 @@ PORT = "8080"
 
 #Database 
 DB_URI = "mongodb+srv://1080p:web@cluster0.vxqoovh.mongodb.net/?retryWrites=true&w=majority"
-DB_NAME = "filesharexbot
+DB_NAME = "filesharexbot"
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = "1799357284"
