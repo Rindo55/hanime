@@ -39,7 +39,7 @@ TG_BOT_WORKERS = 4
 #start message
 START_MSG = "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
 
-ADMINS = int(1863307059)
+ADMINS = "1863307059"
 
 #Force sub message 
 FORCE_MSG = "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
