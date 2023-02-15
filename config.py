@@ -43,7 +43,7 @@ ADMINSX = 1863307059
 
 try:
     ADMINS=[]
-    for x in ADMINSX.split()):
+    for x in ADMINSX.split():
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
