@@ -39,8 +39,15 @@ TG_BOT_WORKERS = 4
 #start message
 START_MSG = "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
 
-ADMINS = "1863307059"
+ADMINSX = 1863307059
 
+try:
+    ADMINS=[]
+    for x in ADMINSX.split()):
+        ADMINS.append(int(x))
+except ValueError:
+        raise Exception("Your Admins list does not contain valid integers.")
+        
 #Force sub message 
 FORCE_MSG = "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
 
@@ -57,7 +64,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 LOG_FILE_NAME = "filesharingbot.txt"
-
+ADMINS.append(OWNER_ID)
 logging.basicConfig(
     level=logging.INFO,
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
