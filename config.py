@@ -13,16 +13,16 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = "6290776967:AAGDcYFSDFkUt3s1xCJuer5NqAONHVVIdnE"
 
 #Your API ID from my.telegram.org
-APP_ID = "3845818"
+APP_ID = 3845818
 
 #Your API Hash from my.telegram.org
 API_HASH = "95937bcf6bc0938f263fc7ad96959c6d"
 
 #Your db channel Id
-CHANNEL_ID = "-1860944958"
+CHANNEL_ID = -1860944958
 
 #OWNER ID
-OWNER_ID = "1443454117"
+OWNER_ID = 1443454117
 
 #Port
 PORT = "8080"
@@ -32,14 +32,14 @@ DB_URI = "mongodb+srv://1080p:web@cluster0.vxqoovh.mongodb.net/?retryWrites=true
 DB_NAME = "filesharexbot"
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = "1799357284"
+FORCE_SUB_CHANNEL = 1799357284
 
-TG_BOT_WORKERS = "4"
+TG_BOT_WORKERS = 4
 
 #start message
 START_MSG = "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
 
-ADMINS = "1863307059"
+ADMINS = 1863307059
 
 #Force sub message 
 FORCE_MSG = "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
